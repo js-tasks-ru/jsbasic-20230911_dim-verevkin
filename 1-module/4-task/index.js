@@ -1,3 +1,4 @@
 function checkSpam(str) {
-  // ваш код...
+  const pattern = /1xBet | XXX/i;
+  return pattern.test(str);
 }
